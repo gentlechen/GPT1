@@ -21,6 +21,18 @@ export default class ResourceLoader {
         });
     }
 
+    /** Keep the first tutorial battle behind a readiness barrier. */
+    static prepareBattle(done: (err?: Error) => void): void {
+        this.getBundle("gameart", (err, bundle) => {
+            if (err) { done(err); return; }
+            bundle.loadDir("spine", cc.Prefab, (loadError: Error) => {
+                if (loadError) { done(loadError); return; }
+                console.log("[BattleTrace] battle animations ready");
+                done();
+            });
+        });
+    }
+
     private static getBundle(name: string, done: (err: Error, bundle?: cc.AssetManager.Bundle) => void): void {
         const cached = cc.assetManager.getBundle(name);
         if (cached) { done(null, cached); return; }

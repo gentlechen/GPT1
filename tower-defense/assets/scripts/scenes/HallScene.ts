@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 import GameEvent from "../common/GameEvent";
 import Msg from "../common/Msg";
 import { UIPath } from "../common/UIPath";
@@ -27,37 +28,40 @@ export default class HallScene extends SceneBase {
 
     // 加载json配置表
     loadJsonTable() {
-
+        // Load sequentially: the original two shared-index chains could finish
+        // early or call showHall several times when downloads completed out of order.
         DLocal.InitConfig(() => {
-            this._finishLoadIdx++;
-            this.showHall();
-        })
-        let loadArr = [UIPath.UIShop, UIPath.UIHeroMain, UIPath.UIHeroInfo, UIPath.UISignIn, UIPath.UIBattleHeroInfo, UIPath.UIBox, UIPath.UIHangup, UIPath.UISignIn, UIPath.UISet, UIPath.UIHangup];
-        let loadIdx = 0;
-        let loadBack = () => {
-            if (loadIdx >= loadArr.length) {
-                this._finishLoadIdx++;
-                this.showHall();
-                return;
-            }
-            UIManager.preLoadDynamicView(loadArr[loadIdx], () => {
-                loadIdx++;
-                loadBack();
+            ResourceLoader.prepareBattle((err) => {
+                if (err) {
+                    console.error("[BattleTrace] startup stopped: animations unavailable", err);
+                    return;
+                }
+                const views = [UIPath.UIBattle, UIPath.UIGuild, UIPath.UIShop,
+                    UIPath.UIHeroMain, UIPath.UIHeroInfo, UIPath.UISignIn,
+                    UIPath.UIBattleHeroInfo, UIPath.UIBox, UIPath.UIHangup, UIPath.UISet];
+                const loadNext = (index: number) => {
+                    if (index >= views.length) { this.showHall(); return; }
+                    UIManager.preLoadDynamicView(views[index], (viewError) => {
+                        if (viewError) {
+                            console.error("[BattleTrace] startup stopped:", views[index], viewError);
+                            return;
+                        }
+                        loadNext(index + 1);
+                    });
+                };
+                loadNext(0);
             });
-        }
-        loadBack();
-        loadBack();
+        });
     }
 
     private showHall() {
-        console.log("------------- this._finishLoadIdx = " + this._finishLoadIdx)
-        if (this._finishLoadIdx >= 3) {
-            DLocal.initAllLevelData();
-            AudioMgr.playMusic(); // 音乐
-            UIManager.ShowForm(UIPath.UIHall, () => {
-                GameEvent.dispatchEvent(Msg.UPDATE_CLOSE_LOADING);
-            });
-        }
+        if (this._finishLoadIdx) return;
+        this._finishLoadIdx = 1;
+        DLocal.initAllLevelData();
+        AudioMgr.playMusic();
+        UIManager.ShowForm(UIPath.UIHall, () => {
+            GameEvent.dispatchEvent(Msg.UPDATE_CLOSE_LOADING);
+        });
     }
 
     //每次显示界面被调用

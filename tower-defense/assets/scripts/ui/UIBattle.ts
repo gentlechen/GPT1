@@ -169,9 +169,6 @@ export default class UIBattle extends UIBase {
 
         let isGuild = argList[2]; // 是否新手引导
         let guildCallback = argList[3]; // 新手引导
-        if (guildCallback) {
-            guildCallback();
-        }
         if (!argList[1]) { // 是否为副本
             this._isCopyBattle = false;
         } else {
@@ -244,6 +241,13 @@ export default class UIBattle extends UIBase {
 
         this.randomHeroSelect();
         console.log("[BattleTrace] battle initialization completed", this._nowGameLevel);
+        if (guildCallback) {
+            // UIBase activates ct after OnShow returns; start the guide next frame.
+            this.scheduleOnce(() => {
+                if (cc.isValid(this.node) && this.node.activeInHierarchy) guildCallback();
+            }, 0);
+        }
+
 
         this.hideBossBlood();
 
@@ -299,7 +303,7 @@ export default class UIBattle extends UIBase {
                 this.heroAnimArr[i].active = false;
                 this.lockArr[i].active = true;
             }
-            for (let j = 0; j < this.heroAnimArr[j].childrenCount; j++) {
+            for (let j = 0; j < this.heroAnimArr[i].childrenCount; j++) {
                 if (this.heroAnimArr[i].children[j]) {
                     this.heroAnimArr[i].children[j].destroy();
                 }

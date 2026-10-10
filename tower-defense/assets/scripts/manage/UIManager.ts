@@ -193,6 +193,7 @@ class UIManager {
                 if (err) {
                     console.error("加载失败 ：" + resPath);
                     console.error(err);
+                    if (callback) callback(err);
                     return;
                 }
                 this._preLoadView[resPath] = prefab;
