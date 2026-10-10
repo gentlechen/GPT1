@@ -29,3 +29,9 @@
 微信日志确认 UIBattle 载入失败为 `Please load bundle gameart first`。resources 的构建配置将部分引用重定向到 gameart；资源包已经注册不代表其依赖已注册。ResourceLoader 现在在解析 resources 中任何资源前先等待 gameart 载入完成，同时优先等待正在进行的载入，防止提前使用已注册但尚未完成的包。此修正在 UILoading 阶段即生效，不仅用于进入战斗。
 
 已通过缓存 resources/缺失 gameart、并发载入、平台提前注册、依赖失败及重试测试；仍需重新构建并在微信验证。
+
+## FIX03 构建版本检查
+
+源码审核确认 tafang5 与先前最新源码一致，而提交的微信包仍含初始加载器。项目名改为 TowerDefense-WeChat-FIX03，ResourceLoader 输出 `[TowerBuild] TF-WX-FIX03-20261010` 警告，压缩后也保留此字符串。新增 packages/tower-build-check 构建扩展：微信构建完成时核对 assets/main/index.js 的版本标记，通过后在实际输出目录写入 tower-build-version.json；缺少标记就报告构建错误。
+
+添加本版本后重启 Creator 以加载扩展。关闭 Creator，清理当前项目的 temp 和 library 生成缓存（不删除 assets/settings），重新打开等待导入。构建到全新英文路径。必须在输出目录看到 tower-build-version.json，版本为 TF-WX-FIX03-20261010，再用微信工具导入该目录。如果控制台没有 Verified 信息，请先检查扩展是否加载，不能仅凭文件缺失认定构建缓存问题。插件已通过模拟构建测试，尚未在实际 Creator 中执行。

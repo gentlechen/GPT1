@@ -1,3 +1,6 @@
+// This literal remains searchable even when JavaScript identifiers are minified.
+console.warn("[TowerBuild] TF-WX-FIX03-20261010");
+
 /** Creator 2.4: route the original resource paths to local asset bundles.
  * Cocos handles WeChat subpackage downloads via loadBundle (no resource server).
  */

@@ -1,0 +1,6 @@
+{
+  "name": "tower-build-check",
+  "version": "1.0.0",
+  "description": "Verify the WeChat output contains the current loader fix",
+  "main": "main.js"
+}
