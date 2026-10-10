@@ -151,6 +151,7 @@ export default class UIChapterInfo extends UIBase {
 
     // 按钮回调
     OnClick(btnName, btnNode, eventData) {
+        console.log("[BattleTrace] chapter button", btnName, "level", this._selectLevel);
         if (btnName == "btnBattle") { // 战斗
             this.CloseForm();
             UIManager.ShowForm(UIPath.UIBattle, this._selectLevel);

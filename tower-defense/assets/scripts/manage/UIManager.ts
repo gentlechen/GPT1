@@ -27,6 +27,7 @@ class UIManager {
     // 打开界面/
     public ShowForm(...argList) {
         let uiPath = argList.shift();
+        if (uiPath.indexOf("prefabs/battle/") === 0) console.log("[BattleTrace] request UI", uiPath, argList);
         let uiArr = uiPath.split("/");
         let layerName = uiArr[uiArr.length - 1];
 
@@ -62,6 +63,7 @@ class UIManager {
     }
 
     private LoadFinish(instance, layerPath, layerName, prefab = null) {
+        if (layerPath.indexOf("prefabs/battle/") === 0) console.log("[BattleTrace] UI instantiated", layerPath);
         if (prefab) {
             if (!this.loadedLayerDict[layerPath]) {
                 prefab.addRef();
@@ -90,6 +92,7 @@ class UIManager {
             }
 
             console.log("Create %s", layerName);
+            if (layerPath.indexOf("prefabs/battle/") === 0) console.log("[BattleTrace] UI show completed", layerPath);
         } else {
             console.error("The %s class has no Show function", layerName)
         }
@@ -168,6 +171,7 @@ class UIManager {
             ResourceLoader.load(resPath,
                 (err, prefab) => {
                     if (err) {
+                        delete this._creatingList[resPath];
                         console.error("加载失败 ：" + resPath);
                         console.error(err);
                         return;

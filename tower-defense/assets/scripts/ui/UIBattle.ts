@@ -151,6 +151,7 @@ export default class UIBattle extends UIBase {
 
     //每次显示界面被调用
     public OnShow(...argList) {
+        console.log("[BattleTrace] battle initialization", argList);
 
         AudioMgr.playBattleMusic();
         this._fetterMap = {};
@@ -242,6 +243,7 @@ export default class UIBattle extends UIBase {
         this.updateWaveCount();
 
         this.randomHeroSelect();
+        console.log("[BattleTrace] battle initialization completed", this._nowGameLevel);
 
         this.hideBossBlood();
 

@@ -10,8 +10,14 @@ export default class ResourceLoader {
             : /^spine\//.test(path) ? "gameart" : "resources";
         this.getBundle(name, (err, bundle) => {
             if (err) { done(err, null); return; }
-            if (callback) bundle.load(path, typeOrCallback, callback);
-            else bundle.load(path, typeOrCallback);
+            const onLoaded = (loadError: Error, asset: any) => {
+                if (loadError) console.error("[BattleTrace] resource failed", name, path, loadError);
+                else if (path === "prefabs/battle/UIBattle") console.log("[BattleTrace] battle prefab loaded");
+                done(loadError, asset);
+            };
+            if (path === "prefabs/battle/UIBattle") console.log("[BattleTrace] loading battle prefab", name);
+            if (callback) bundle.load(path, typeOrCallback, onLoaded);
+            else bundle.load(path, onLoaded);
         });
     }
 
