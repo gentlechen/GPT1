@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 import { UIPath } from "../common/UIPath";
 
 
@@ -147,7 +148,7 @@ class DLocal {
 
         // console.log("----------------内存之前  ")
         // console.log(cc.assetManager.assets)
-        cc.resources.load("dataconfig/allconfig", (err: Error, zipData: any) => {
+        ResourceLoader.load("dataconfig/allconfig", (err: Error, zipData: any) => {
 
             // let time1 = Date.now() / 1000
             //解析

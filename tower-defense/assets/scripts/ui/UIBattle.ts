@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 
 import { MusicPath, RewardType } from "../common/GameEnum";
 import GameEvent from "../common/GameEvent";
@@ -845,7 +846,7 @@ export default class UIBattle extends UIBase {
                         let heroTargetPos = monster.getHeroTagetPos();
                         this.monsterHit(insSkill, insMonster, nowMonsterAttack, heroTargetPos);
                     } else {
-                        cc.resources.load(skillPath, (err, prefab: any) => {
+                        ResourceLoader.load(skillPath, (err, prefab: any) => {
                             if (err) {
                                 console.error(skillPath)
                                 console.error(err)
@@ -885,7 +886,7 @@ export default class UIBattle extends UIBase {
                 })
 
             } else {
-                cc.resources.load(resPath, (err, prefab: any) => {
+                ResourceLoader.load(resPath, (err, prefab: any) => {
                     if (err) {
                         console.log(resPath)
                         console.log(err)
@@ -922,7 +923,7 @@ export default class UIBattle extends UIBase {
             }
 
         } else {
-            cc.resources.load("spine/other/transmit", (err, prefab: any) => {
+            ResourceLoader.load("spine/other/transmit", (err, prefab: any) => {
 
                 if (err) {
                     console.log(err)

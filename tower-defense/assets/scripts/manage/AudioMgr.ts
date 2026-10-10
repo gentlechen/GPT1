@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 //电子邮件puhalskijsemen@gmail.com
 //源码网站 开vpn全局模式打开 http://web3incubators.com/
 //电报https://t.me/gamecode999
@@ -43,7 +44,7 @@ class AudioMgr {
                 callback(this._musicMap[resPath]);
             }
         } else {
-            cc.resources.load(resPath, cc.AudioClip, (err, res) => {
+            ResourceLoader.load(resPath, cc.AudioClip, (err, res) => {
                 if (err) {
                     return;
                 }

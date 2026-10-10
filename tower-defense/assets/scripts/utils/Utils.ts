@@ -1,3 +1,4 @@
+import ResourceLoader from "./ResourceLoader";
 
 import myMD5 = require("./md5");
 import UIManager from "../manage/UIManager";
@@ -81,7 +82,7 @@ class Utils {
 
             return;
         }
-        cc.resources.load(resPath,
+        ResourceLoader.load(resPath,
             (err, prefab) => {
 
                 DLocal.ClearLoadingRes(resPath);
@@ -147,7 +148,7 @@ class Utils {
                 return;
             }
 
-            cc.resources.load(resPath, resType,
+            ResourceLoader.load(resPath, resType,
                 (err, data) => {
 
                     DLocal.ClearLoadingRes(resPath);
@@ -175,7 +176,7 @@ class Utils {
     // 动态加载图片
     loadImg(resPath: string, callback) {
 
-        cc.resources.load(resPath, cc.SpriteFrame,
+        ResourceLoader.load(resPath, cc.SpriteFrame,
             (err, spriteFrame) => {
                 if (err) {
                     console.log(err);

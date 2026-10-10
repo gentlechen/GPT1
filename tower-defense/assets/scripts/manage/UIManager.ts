@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 /*
  * @Author: your name
  * @Date: 2021-06-28 11:24:01
@@ -164,7 +165,7 @@ class UIManager {
                 callback(layer, resPath, uiName, prefab);
             }
         } else {
-            cc.resources.load(resPath,
+            ResourceLoader.load(resPath,
                 (err, prefab) => {
                     if (err) {
                         console.error("加载失败 ：" + resPath);
@@ -183,7 +184,7 @@ class UIManager {
     // 资源预加载(可以外部调用)
     preLoadDynamicView(resPath: string, callback) {
 
-        cc.resources.load(resPath,
+        ResourceLoader.load(resPath,
             (err, prefab) => {
                 if (err) {
                     console.error("加载失败 ：" + resPath);

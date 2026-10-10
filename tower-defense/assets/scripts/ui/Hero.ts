@@ -1,3 +1,4 @@
+import ResourceLoader from "../utils/ResourceLoader";
 import { MusicPath } from "../common/GameEnum";
 import GameEvent from "../common/GameEvent";
 import Msg from "../common/Msg";
@@ -333,7 +334,7 @@ export default class Hero extends cc.Component {
                 bulleFunc(insSkill);
             } else {
                 let skillPath = "spine/bullets/" + this._bulletId;
-                cc.resources.load(skillPath, (err, prefab: any) => {
+                ResourceLoader.load(skillPath, (err, prefab: any) => {
                     if (err) {
                         return;
                     }
@@ -917,7 +918,7 @@ export default class Hero extends cc.Component {
         let skillAnmi = this._battleSelf.getSkillAnmiWithId(skillid);
         if (!skillAnmi) {
             let skillPath = "spine/skills/" + skillid;
-            cc.resources.load(skillPath, (err, prefab: any) => {
+            ResourceLoader.load(skillPath, (err, prefab: any) => {
                 if (err) {
                     console.error(err)
                     console.error(skillPath)

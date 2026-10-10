@@ -1,0 +1,21 @@
+{
+  "ver": "1.1.3",
+  "uuid": "29cb0410-fdcc-4739-90a7-30fa8b0964f7",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "gameart",
+  "priority": 10,
+  "compressionType": {
+    "wechatgame": "subpackage"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": false
+  },
+  "subMetas": {}
+}
