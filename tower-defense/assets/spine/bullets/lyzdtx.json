@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "DffkkpS5PWwzzAu1B+1Djwh2NRs", "spine": "3.7.94", "width": 90.67, "height": 89.8, "images": "", "audio": "F:/游戏资源/spine资源（动画_特效）/SPINE effect/ready_elect" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.2, "scaleY": 0.2 },
+	{ "name": "lightning", "parent": "bone" },
+	{ "name": "lightning2", "parent": "bone", "rotation": -146.34 }
+],
+"slots": [
+	{ "name": "lyzd", "bone": "bone", "attachment": "lyzd" },
+	{ "name": "lightning01a", "bone": "lightning", "color": "ffffff00", "dark": "000000", "attachment": "lightning01a" },
+	{ "name": "lightning01a2", "bone": "lightning2", "color": "ffffff00", "dark": "000000", "attachment": "lightning01a" }
+],
+"skins": {
+	"default": {
+		"lightning01a": {
+			"lightning01a": { "scaleX": 0.983, "scaleY": 0.983, "width": 339, "height": 323 },
+			"lightning01b": { "width": 338, "height": 299 },
+			"lightning01c": { "width": 334, "height": 262 },
+			"lightning02a": { "width": 304, "height": 293 },
+			"lightning02b": { "width": 281, "height": 289 },
+			"lightning02c": { "width": 268, "height": 254 }
+		},
+		"lightning01a2": {
+			"lightning01a": { "scaleX": 0.983, "scaleY": 0.983, "width": 339, "height": 323 },
+			"lightning01b": { "width": 338, "height": 299 },
+			"lightning01c": { "width": 334, "height": 262 },
+			"lightning02a": { "width": 304, "height": 293 },
+			"lightning02b": { "width": 281, "height": 289 },
+			"lightning02c": { "width": 268, "height": 254 }
+		},
+		"lyzd": {
+			"lyzd": { "width": 301, "height": 301 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"lightning01a": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "lightning01b" },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1, "name": "lightning01c" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.2, "name": "lightning02a" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.3333, "name": "lightning02b" },
+					{ "time": 0.3667, "name": null },
+					{ "time": 0.4333, "name": "lightning02c" },
+					{ "time": 0.4667, "name": null },
+					{ "time": 0.5, "name": "lightning02c" },
+					{ "time": 0.5667, "name": null },
+					{ "time": 0.6, "name": "lightning01b" }
+				]
+			},
+			"lightning01a2": {
+				"twoColor": [
+					{ "time": 0.0333, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "lightning01b" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.1333, "name": "lightning01c" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.2333, "name": "lightning02a" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3667, "name": "lightning02b" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.4667, "name": "lightning02c" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.5333, "name": "lightning02c" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.6333, "name": "lightning01b" }
+				]
+			}
+		},
+		"bones": {
+			"lightning": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": -164.32, "curve": "stepped" },
+					{ "time": 0.2, "angle": 4.15, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 89.8, "curve": "stepped" },
+					{ "time": 0.4333, "angle": -53.35, "curve": "stepped" },
+					{ "time": 0.5, "angle": 159.74, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				]
+			},
+			"lightning2": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": -164.32, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 4.15, "curve": "stepped" },
+					{ "time": 0.3667, "angle": 89.8, "curve": "stepped" },
+					{ "time": 0.4667, "angle": -53.35, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 159.74, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

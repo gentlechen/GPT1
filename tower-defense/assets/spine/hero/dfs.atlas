@@ -1,0 +1,27 @@
+
+dfs.png
+size: 200,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 2
+  size: 74, 91
+  orig: 75, 97
+  offset: 1, 0
+  index: -1
+dfs2
+  rotate: true
+  xy: 95, 2
+  size: 74, 89
+  orig: 75, 97
+  offset: 1, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 78
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

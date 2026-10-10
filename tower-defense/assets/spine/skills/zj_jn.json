@@ -1,0 +1,130 @@
+{
+"skeleton": { "hash": "D7IiWn5IQLD5G4f888K0EN3IoSU", "spine": "3.7.94", "width": 1080, "height": 2359.35, "images": "../../../英雄技能补全/战舰风之壁垒_受击/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "chuan_4", "bone": "root", "attachment": "chuan_4" },
+	{ "name": "chuan_5", "bone": "bone", "color": "ff000034", "dark": "ff0000", "blend": "additive" },
+	{ "name": "chuan_7", "bone": "bone2", "color": "ff000034", "dark": "ff0000", "blend": "additive" },
+	{ "name": "chuan_6", "bone": "bone", "color": "00c8ffa3", "dark": "00d6ff" },
+	{ "name": "chuan_8", "bone": "bone2", "color": "00c8ffa3", "dark": "00d6ff" }
+],
+"skins": {
+	"default": {
+		"chuan_4": {
+			"chuan_4": { "y": -35.99, "scaleX": 1.335, "scaleY": 1.335, "width": 772, "height": 590 }
+		},
+		"chuan_5": {
+			"chuan_4": { "y": -35.99, "scaleX": 1.335, "scaleY": 1.335, "width": 772, "height": 590 }
+		},
+		"chuan_6": {
+			"chuan_4": { "y": -35.99, "scaleX": 1.335, "scaleY": 1.335, "width": 772, "height": 590 }
+		},
+		"chuan_7": {
+			"chuan_4": { "y": -35.99, "scaleX": 1.335, "scaleY": 1.335, "width": 772, "height": 590 }
+		},
+		"chuan_8": {
+			"chuan_4": { "y": -35.99, "scaleX": 1.335, "scaleY": 1.335, "width": 772, "height": 590 }
+		}
+	}
+},
+"animations": {
+	"fzbl": {
+		"slots": {
+			"chuan_6": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "00c8ff00",
+						"dark": "a7f1ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"light": "00c8ff60",
+						"dark": "00d6ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "light": "00c8ff00", "dark": "a7f1ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "chuan_4" }
+				]
+			},
+			"chuan_8": {
+				"twoColor": [
+					{ "time": 0, "light": "00c8ff00", "dark": "a7f1ff", "curve": "stepped" },
+					{
+						"time": 0.5667,
+						"light": "00c8ff00",
+						"dark": "a7f1ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.1,
+						"light": "00c8ff60",
+						"dark": "00d6ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.6, "light": "00c8ff00", "dark": "a7f1ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "chuan_4" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": 1.08, "y": 1.08 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{
+						"time": 0.5667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.6, "x": 1.08, "y": 1.08 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"chuan_5": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ff000000",
+						"dark": "ff0000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"light": "ff000034",
+						"dark": "ff0000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "light": "ff000000", "dark": "ff0000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "chuan_4" }
+				]
+			}
+		}
+	},
+	"wait": {}
+}
+}

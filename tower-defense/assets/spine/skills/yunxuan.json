@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "jV9paVTql/gxhhMrk2McgoqCE50", "spine": "3.7.94", "width": 102.4, "height": 102.4, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "eff_confuse_00001", "bone": "bone", "attachment": "eff_confuse_00001" }
+],
+"skins": {
+	"default": {
+		"eff_confuse_00001": {
+			"eff_confuse_00001": { "width": 128, "height": 128 },
+			"eff_confuse_00002": { "width": 128, "height": 128 },
+			"eff_confuse_00003": { "width": 128, "height": 128 },
+			"eff_confuse_00004": { "width": 128, "height": 128 },
+			"eff_confuse_00005": { "width": 128, "height": 128 },
+			"eff_confuse_00006": { "width": 128, "height": 128 },
+			"eff_confuse_00007": { "width": 128, "height": 128 },
+			"eff_confuse_00008": { "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"eff_confuse_00001": {
+				"attachment": [
+					{ "time": 0.0667, "name": "eff_confuse_00002" },
+					{ "time": 0.1333, "name": "eff_confuse_00003" },
+					{ "time": 0.2, "name": "eff_confuse_00004" },
+					{ "time": 0.2667, "name": "eff_confuse_00005" },
+					{ "time": 0.3333, "name": "eff_confuse_00006" },
+					{ "time": 0.4, "name": "eff_confuse_00007" },
+					{ "time": 0.4667, "name": "eff_confuse_00008" }
+				]
+			}
+		}
+	}
+}
+}

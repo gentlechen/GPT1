@@ -1,0 +1,76 @@
+
+10008.png
+size: 108,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+08
+  rotate: false
+  xy: 34, 41
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+09
+  rotate: false
+  xy: 66, 74
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+10
+  rotate: false
+  xy: 34, 9
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+11
+  rotate: false
+  xy: 66, 42
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+12
+  rotate: false
+  xy: 2, 73
+  size: 30, 31
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 40
+  size: 30, 31
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+14
+  rotate: false
+  xy: 34, 73
+  size: 30, 31
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+15
+  rotate: false
+  xy: 2, 7
+  size: 30, 31
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+16
+  rotate: true
+  xy: 66, 9
+  size: 31, 21
+  orig: 32, 32
+  offset: 1, 0
+  index: -1
+weapons5_11
+  rotate: true
+  xy: 98, 69
+  size: 35, 8
+  orig: 35, 9
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,62 @@
+
+10181.png
+size: 144,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 2, 2
+  size: 73, 67
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+dylizi
+  rotate: false
+  xy: 71, 31
+  size: 44, 44
+  orig: 46, 46
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 117, 55
+  size: 20, 20
+  orig: 22, 22
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 117, 33
+  size: 20, 20
+  orig: 22, 22
+  offset: 1, 1
+  index: -1
+sd11
+  rotate: false
+  xy: 71, 3
+  size: 50, 26
+  orig: 52, 28
+  offset: 1, 1
+  index: -1
+y1
+  rotate: false
+  xy: 123, 19
+  size: 15, 12
+  orig: 17, 14
+  offset: 1, 1
+  index: -1
+y2
+  rotate: true
+  xy: 123, 2
+  size: 15, 12
+  orig: 17, 14
+  offset: 1, 1
+  index: -1
+z1
+  rotate: true
+  xy: 139, 65
+  size: 10, 3
+  orig: 12, 5
+  offset: 1, 1
+  index: -1

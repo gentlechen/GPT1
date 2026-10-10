@@ -1,0 +1,76 @@
+
+10091.png
+size: 144,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd11
+  rotate: false
+  xy: 2, 9
+  size: 61, 68
+  orig: 61, 68
+  offset: 0, 0
+  index: -1
+l1
+  rotate: false
+  xy: 65, 17
+  size: 51, 28
+  orig: 51, 28
+  offset: 0, 0
+  index: -1
+sd11
+  rotate: false
+  xy: 74, 47
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+sss1
+  rotate: false
+  xy: 118, 25
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 2, 2
+  size: 5, 48
+  orig: 5, 48
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 65, 47
+  size: 7, 30
+  orig: 7, 30
+  offset: 0, 0
+  index: -1
+y1
+  rotate: true
+  xy: 131, 9
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+y11
+  rotate: true
+  xy: 118, 8
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+z1
+  rotate: false
+  xy: 74, 4
+  size: 27, 11
+  orig: 27, 11
+  offset: 0, 0
+  index: -1
+z2
+  rotate: false
+  xy: 52, 2
+  size: 20, 5
+  orig: 20, 5
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,188 @@
+{
+"skeleton": { "hash": "m/leURPVGCONNv8BIVyTrskbYiw", "spine": "3.7.94", "width": 168.93, "height": 158.76, "images": "./images/", "audio": "C:/Users/LanFan/Desktop/像素塔防/动效/英雄技能补全/灵魂震荡" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 },
+	{ "name": "bone4", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 },
+	{ "name": "bone5", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 }
+],
+"slots": [
+	{ "name": "skill_shuairuo_rbjf_00001", "bone": "bone2", "color": "7d9affff", "blend": "additive" },
+	{ "name": "huo_0", "bone": "bone", "dark": "9b007b" },
+	{ "name": "oqoq", "bone": "bone3", "color": "4866ffff", "attachment": "oqoq", "blend": "additive" },
+	{ "name": "oqoq2", "bone": "bone4", "color": "4866ffff", "attachment": "oqoq", "blend": "additive" },
+	{ "name": "oqoq3", "bone": "bone5", "color": "4866ffff", "attachment": "oqoq", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"huo_0": {
+			"huo_0": { "x": 1.5, "y": 77, "width": 121, "height": 176 },
+			"huo_1": { "x": -3, "y": 82, "width": 112, "height": 186 },
+			"huo_2": { "x": -3, "y": 91, "width": 94, "height": 204 },
+			"huo_3": { "x": 1.5, "y": 72.5, "width": 103, "height": 167 },
+			"huo_4": { "x": -3, "y": 77, "width": 112, "height": 176 },
+			"huo_5": { "x": 1.5, "y": 86.5, "width": 103, "height": 195 },
+			"huo_6": { "x": 1.5, "y": 82, "width": 103, "height": 186 },
+			"huo_7": { "x": 6, "y": 91, "width": 112, "height": 204 }
+		},
+		"oqoq": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"oqoq2": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"oqoq3": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"skill_shuairuo_rbjf_00001": {
+			"skill_shuairuo_rbjf_00001": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00002": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00003": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00004": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00005": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00006": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00007": { "rotation": -0.02, "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00008": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00009": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00010": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00011": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00012": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00013": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00014": { "width": 500, "height": 500 },
+			"skill_shuairuo_rbjf_00015": { "width": 500, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"huo_0": {
+				"twoColor": [
+					{
+						"time": 0.6667,
+						"light": "ffffffff",
+						"dark": "9b007b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "light": "ffffff00", "dark": "9b007b" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "huo_0" },
+					{ "time": 0.2, "name": "huo_1" },
+					{ "time": 0.2667, "name": "huo_2" },
+					{ "time": 0.3333, "name": "huo_3" },
+					{ "time": 0.4, "name": "huo_4" },
+					{ "time": 0.4667, "name": "huo_5" },
+					{ "time": 0.5333, "name": "huo_6" },
+					{ "time": 0.6, "name": "huo_7" },
+					{ "time": 0.6667, "name": "huo_0" },
+					{ "time": 0.7333, "name": "huo_1" },
+					{ "time": 0.8, "name": "huo_2" },
+					{ "time": 0.8667, "name": "huo_3" }
+				]
+			},
+			"oqoq": {
+				"color": [
+					{
+						"time": 0.3667,
+						"color": "4866ffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5667, "color": "4766ff00" }
+				]
+			},
+			"oqoq2": {
+				"color": [
+					{
+						"time": 0.5333,
+						"color": "4866ffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7, "color": "4766ff00" }
+				]
+			},
+			"oqoq3": {
+				"color": [
+					{
+						"time": 0.6667,
+						"color": "4866ffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9667, "color": "4766ff00" }
+				]
+			},
+			"skill_shuairuo_rbjf_00001": {
+				"attachment": [
+					{ "time": 0, "name": "skill_shuairuo_rbjf_00001" },
+					{ "time": 0.0333, "name": "skill_shuairuo_rbjf_00002" },
+					{ "time": 0.0667, "name": "skill_shuairuo_rbjf_00003" },
+					{ "time": 0.1, "name": "skill_shuairuo_rbjf_00004" },
+					{ "time": 0.1333, "name": "skill_shuairuo_rbjf_00005" },
+					{ "time": 0.1667, "name": "skill_shuairuo_rbjf_00006" },
+					{ "time": 0.2, "name": "skill_shuairuo_rbjf_00007" },
+					{ "time": 0.2333, "name": "skill_shuairuo_rbjf_00008" },
+					{ "time": 0.2667, "name": "skill_shuairuo_rbjf_00009" },
+					{ "time": 0.3, "name": "skill_shuairuo_rbjf_00010" },
+					{ "time": 0.3333, "name": "skill_shuairuo_rbjf_00011" },
+					{ "time": 0.3667, "name": "skill_shuairuo_rbjf_00012" },
+					{ "time": 0.4, "name": "skill_shuairuo_rbjf_00013" },
+					{ "time": 0.4333, "name": "skill_shuairuo_rbjf_00014" },
+					{ "time": 0.4667, "name": "skill_shuairuo_rbjf_00015" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{
+						"time": 0.1333,
+						"x": 0.046,
+						"y": 0.046,
+						"curve": [ 0.798, -0.55, 0.26, 1.92 ]
+					},
+					{ "time": 0.3, "x": 2, "y": 2 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.1,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5667, "x": 11.315, "y": 11.315 }
+				]
+			},
+			"bone4": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7, "x": 11.315, "y": 11.315 }
+				]
+			},
+			"bone5": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9667, "x": 11.315, "y": 11.315 }
+				]
+			}
+		}
+	}
+}
+}

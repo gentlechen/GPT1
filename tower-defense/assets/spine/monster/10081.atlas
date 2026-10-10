@@ -1,0 +1,90 @@
+
+10081.png
+size: 160,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd1
+  rotate: true
+  xy: 98, 76
+  size: 62, 56
+  orig: 62, 56
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 100, 9
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 100, 9
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+sd11
+  rotate: false
+  xy: 96, 48
+  size: 50, 26
+  orig: 52, 28
+  offset: 1, 1
+  index: -1
+ssd
+  rotate: true
+  xy: 148, 54
+  size: 20, 10
+  orig: 22, 12
+  offset: 1, 1
+  index: -1
+y1
+  rotate: false
+  xy: 2, 85
+  size: 94, 53
+  orig: 96, 55
+  offset: 1, 1
+  index: -1
+y2
+  rotate: false
+  xy: 2, 30
+  size: 92, 53
+  orig: 94, 55
+  offset: 1, 1
+  index: -1
+y3
+  rotate: false
+  xy: 2, 5
+  size: 96, 23
+  orig: 96, 23
+  offset: 0, 0
+  index: -1
+y4
+  rotate: true
+  xy: 96, 33
+  size: 13, 22
+  orig: 15, 24
+  offset: 1, 1
+  index: -1
+yan1
+  rotate: false
+  xy: 124, 31
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+yan2
+  rotate: false
+  xy: 124, 31
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+zui1
+  rotate: false
+  xy: 2, 2
+  size: 4, 1
+  orig: 6, 3
+  offset: 1, 1
+  index: -1

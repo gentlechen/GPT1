@@ -1,0 +1,13 @@
+
+gqanimation.png
+size: 108,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gq
+  rotate: false
+  xy: 2, 2
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

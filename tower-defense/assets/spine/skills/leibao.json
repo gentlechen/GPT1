@@ -1,0 +1,249 @@
+{
+"skeleton": { "hash": "KXsKTEN7HSqOwaGFNLcV5TLPYuw", "spine": "3.7.94", "width": 200, "height": 219.85, "images": "./images/", "audio": "C:/Users/LanFan/Desktop/像素塔防/动效/英雄技能补全/灵魂震荡" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone3", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 },
+	{ "name": "bone4", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 },
+	{ "name": "bone5", "parent": "root", "scaleX": 0.196, "scaleY": 0.196 },
+	{ "name": "bone", "parent": "root", "y": 16.91, "scaleX": 0.4, "scaleY": 0.4 },
+	{ "name": "bone2", "parent": "root", "y": 81.88, "scaleX": 0.3, "scaleY": 0.3 }
+],
+"slots": [
+	{ "name": "5c0589f5544344dba7ee6777b5c6496", "bone": "root" },
+	{ "name": "5c0589f5544344dba7ee6777b5c6497", "bone": "root" },
+	{ "name": "oqoq", "bone": "bone3", "color": "4866ffff", "dark": "000000", "attachment": "oqoq", "blend": "additive" },
+	{ "name": "oqoq2", "bone": "bone4", "color": "4866ffff", "attachment": "oqoq", "blend": "additive" },
+	{ "name": "oqoq3", "bone": "bone5", "color": "4866ffff", "attachment": "oqoq", "blend": "additive" },
+	{ "name": "skill_thunder_dslm_00001", "bone": "bone", "attachment": "skill_thunder_dslm_00001" },
+	{ "name": "0", "bone": "bone2", "attachment": "0" }
+],
+"skins": {
+	"default": {
+		"0": {
+			"0": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 },
+			"1": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 },
+			"2": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 },
+			"3": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 },
+			"4": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 },
+			"5": { "x": 15.13, "y": -11.57, "width": 372, "height": 389 }
+		},
+		"oqoq": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"oqoq2": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"oqoq3": {
+			"oqoq": { "width": 864, "height": 812 }
+		},
+		"skill_thunder_dslm_00001": {
+			"skill_thunder_dslm_00001": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00002": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00003": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00004": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00005": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00006": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00007": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00008": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00009": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00010": { "width": 500, "height": 500 },
+			"skill_thunder_dslm_00011": { "width": 500, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"0": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.6,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "1" },
+					{ "time": 0.1, "name": "2" },
+					{ "time": 0.1667, "name": "3" },
+					{ "time": 0.2333, "name": "4" },
+					{ "time": 0.3, "name": "5" },
+					{ "time": 0.3333, "name": "0" },
+					{ "time": 0.4, "name": "1" },
+					{ "time": 0.4667, "name": "2" },
+					{ "time": 0.5, "name": "3" },
+					{ "time": 0.5667, "name": "4" },
+					{ "time": 0.6333, "name": "5" }
+				]
+			},
+			"oqoq": {
+				"twoColor": [
+					{ "time": 0.2, "light": "00eaffff", "dark": "001bff", "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"light": "00eaffff",
+						"dark": "001bff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "light": "4766ff00", "dark": "000000" }
+				]
+			},
+			"oqoq2": {
+				"color": [
+					{ "time": 0.3667, "color": "00eaffff", "curve": "stepped" },
+					{
+						"time": 0.6333,
+						"color": "00eaffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8, "color": "4766ff00" }
+				]
+			},
+			"oqoq3": {
+				"color": [
+					{ "time": 0.5, "color": "00eaffff", "curve": "stepped" },
+					{
+						"time": 0.7667,
+						"color": "00eaffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "color": "4766ff00" }
+				]
+			},
+			"skill_thunder_dslm_00001": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "skill_thunder_dslm_00002" },
+					{ "time": 0.1333, "name": "skill_thunder_dslm_00003" },
+					{ "time": 0.2, "name": "skill_thunder_dslm_00004" },
+					{ "time": 0.2667, "name": "skill_thunder_dslm_00005" },
+					{ "time": 0.3333, "name": "skill_thunder_dslm_00006" },
+					{ "time": 0.4, "name": "skill_thunder_dslm_00007" },
+					{ "time": 0.4667, "name": "skill_thunder_dslm_00008" },
+					{ "time": 0.5333, "name": "skill_thunder_dslm_00009" },
+					{ "time": 0.6, "name": "skill_thunder_dslm_00010" },
+					{ "time": 0.6667, "name": "skill_thunder_dslm_00011" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 11.315, "y": 11.315 }
+				]
+			},
+			"bone4": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.3667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8, "x": 11.315, "y": 11.315 }
+				]
+			},
+			"bone5": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.5,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.0667, "x": 11.315, "y": 11.315 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 96.81 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.415, "y": 3.415 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 267.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 6.58, "y": 6.58 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"0": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.6,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "1" },
+					{ "time": 0.1, "name": "2" },
+					{ "time": 0.1667, "name": "3" },
+					{ "time": 0.2333, "name": "4" },
+					{ "time": 0.3, "name": "5" },
+					{ "time": 0.3333, "name": "0" },
+					{ "time": 0.4, "name": "1" },
+					{ "time": 0.4667, "name": "2" },
+					{ "time": 0.5, "name": "3" },
+					{ "time": 0.5667, "name": "4" },
+					{ "time": 0.6333, "name": "5" }
+				]
+			},
+			"skill_thunder_dslm_00001": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "skill_thunder_dslm_00002" },
+					{ "time": 0.1333, "name": "skill_thunder_dslm_00003" },
+					{ "time": 0.2, "name": "skill_thunder_dslm_00004" },
+					{ "time": 0.2667, "name": "skill_thunder_dslm_00005" },
+					{ "time": 0.3333, "name": "skill_thunder_dslm_00006" },
+					{ "time": 0.4, "name": "skill_thunder_dslm_00007" },
+					{ "time": 0.4667, "name": "skill_thunder_dslm_00008" },
+					{ "time": 0.5333, "name": "skill_thunder_dslm_00009" },
+					{ "time": 0.6, "name": "skill_thunder_dslm_00010" },
+					{ "time": 0.6667, "name": "skill_thunder_dslm_00011" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

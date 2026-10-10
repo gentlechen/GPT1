@@ -1,0 +1,27 @@
+
+hn.png
+size: 204,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 3
+  size: 75, 91
+  orig: 75, 97
+  offset: 0, 0
+  index: -1
+dfs2
+  rotate: false
+  xy: 127, 111
+  size: 75, 89
+  orig: 75, 97
+  offset: 0, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 80
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

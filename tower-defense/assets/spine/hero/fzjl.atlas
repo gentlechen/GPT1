@@ -1,0 +1,27 @@
+
+fzjl.png
+size: 200,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 3
+  size: 70, 92
+  orig: 75, 97
+  offset: 3, 0
+  index: -1
+dfs2
+  rotate: false
+  xy: 127, 105
+  size: 70, 90
+  orig: 75, 97
+  offset: 3, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 75
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

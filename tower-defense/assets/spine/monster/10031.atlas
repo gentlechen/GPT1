@@ -1,0 +1,55 @@
+
+10031.png
+size: 176,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 153, 20
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+sd11
+  rotate: true
+  xy: 120, 2
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+shou22
+  rotate: false
+  xy: 153, 42
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+yan22
+  rotate: false
+  xy: 153, 8
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+ydddd
+  rotate: false
+  xy: 64, 8
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+zui11
+  rotate: false
+  xy: 64, 2
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1

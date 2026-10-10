@@ -1,0 +1,76 @@
+
+jiangsu.png
+size: 124,120
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+psbuff_dhsm_00001
+  rotate: false
+  xy: 2, 92
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00002
+  rotate: false
+  xy: 2, 64
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00003
+  rotate: false
+  xy: 48, 92
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00004
+  rotate: false
+  xy: 2, 36
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00005
+  rotate: false
+  xy: 48, 64
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00006
+  rotate: true
+  xy: 94, 74
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00007
+  rotate: false
+  xy: 2, 8
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00008
+  rotate: false
+  xy: 48, 36
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00009
+  rotate: false
+  xy: 48, 8
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+psbuff_dhsm_00010
+  rotate: true
+  xy: 94, 28
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+60002.png
+size: 560,560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bdd
+  rotate: true
+  xy: 242, 196
+  size: 186, 165
+  orig: 188, 167
+  offset: 1, 1
+  index: -1
+daoqi
+  rotate: false
+  xy: 2, 384
+  size: 415, 174
+  orig: 415, 174
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 242, 2
+  size: 192, 222
+  orig: 194, 224
+  offset: 1, 1
+  index: -1
+sdd
+  rotate: true
+  xy: 419, 374
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1
+shou1
+  rotate: false
+  xy: 409, 308
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+shou2
+  rotate: false
+  xy: 409, 308
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+tkkk
+  rotate: false
+  xy: 2, 122
+  size: 238, 260
+  orig: 240, 262
+  offset: 1, 1
+  index: -1
+yan1
+  rotate: true
+  xy: 409, 252
+  size: 54, 49
+  orig: 56, 51
+  offset: 1, 1
+  index: -1
+yan2
+  rotate: true
+  xy: 409, 196
+  size: 54, 49
+  orig: 56, 51
+  offset: 1, 1
+  index: -1
+zui
+  rotate: false
+  xy: 520, 551
+  size: 22, 7
+  orig: 24, 9
+  offset: 1, 1
+  index: -1

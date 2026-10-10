@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "XXRW5AMlHrbi5r2ps02mgaBwV84", "spine": "3.7.94", "width": 80, "height": 80, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "00", "bone": "bone", "dark": "000000", "attachment": "08" }
+],
+"skins": {
+	"default": {
+		"00": {
+			"08": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"09": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"10": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"11": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"12": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"13": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"14": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"15": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 },
+			"16": { "x": -0.71, "y": 4.74, "width": 40, "height": 40 }
+		}
+	}
+},
+"animations": {
+	"die": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0.2,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "light": "ffffff00", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "16" }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1333, "name": "10" },
+					{ "time": 0.2, "name": "11" },
+					{ "time": 0.2667, "name": "12" },
+					{ "time": 0.3333, "name": "13" },
+					{ "time": 0.4, "name": "14" },
+					{ "time": 0.4667, "name": "15" }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"00": {
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1333, "name": "10" },
+					{ "time": 0.2, "name": "11" },
+					{ "time": 0.2667, "name": "12" },
+					{ "time": 0.3333, "name": "13" },
+					{ "time": 0.4, "name": "14" },
+					{ "time": 0.4667, "name": "15" }
+				]
+			}
+		}
+	}
+}
+}

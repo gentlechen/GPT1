@@ -1,0 +1,27 @@
+
+kbsm.png
+size: 204,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 3
+  size: 73, 95
+  orig: 73, 95
+  offset: 0, 0
+  index: -1
+dfs2
+  rotate: false
+  xy: 127, 105
+  size: 73, 93
+  orig: 73, 93
+  offset: 0, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 78
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

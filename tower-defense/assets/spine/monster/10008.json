@@ -1,0 +1,345 @@
+{
+"skeleton": { "hash": "lkk2bUFLB6HZ/pN8qZ1/Uurl8vc", "spine": "3.7.94", "width": 74.46, "height": 66.87, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "bone2", "parent": "bone", "rotation": 18.88, "x": -8.4, "y": -9.48 }
+],
+"slots": [
+	{ "name": "00", "bone": "bone", "dark": "000000", "attachment": "08" },
+	{ "name": "weapons5_11", "bone": "bone2", "dark": "000000", "attachment": "weapons5_11" }
+],
+"skins": {
+	"default": {
+		"00": {
+			"08": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"09": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"10": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"11": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"12": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"13": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"14": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"15": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 },
+			"16": { "x": -0.95, "y": 1.63, "width": 32, "height": 32 }
+		},
+		"weapons5_11": {
+			"weapons5_11": { "x": 11.25, "y": -0.05, "width": 35, "height": 9 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"weapons5_11": {
+				"twoColor": [
+					{ "time": 0.2, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.2333, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.2667, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.0667,
+						"x": 0,
+						"y": 4.07,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 2.41,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": -4.07,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.97,
+						"y": 0.97,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.054,
+						"y": 1.054,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 128.77,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"angle": -32.91,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 6.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": 0.51,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.401,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1,
+						"y": 1.7,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"die": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0.1667,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3667, "light": "ffffff00", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "16" }
+				]
+			},
+			"weapons5_11": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.3667, "light": "ffffff00", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": -18.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.48 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1333, "name": "10" },
+					{ "time": 0.2, "name": "11" },
+					{ "time": 0.2667, "name": "12" },
+					{ "time": 0.3333, "name": "13" },
+					{ "time": 0.4, "name": "14" },
+					{ "time": 0.4667, "name": "15" }
+				]
+			},
+			"weapons5_11": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.1, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.2333, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.4667, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"angle": 6.79,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 2.95,
+						"y": -0.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 5.16,
+						"y": 2.15,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 2.95,
+						"y": -0.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"00": {
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1333, "name": "10" },
+					{ "time": 0.2, "name": "11" },
+					{ "time": 0.2667, "name": "12" },
+					{ "time": 0.3333, "name": "13" },
+					{ "time": 0.4, "name": "14" },
+					{ "time": 0.4667, "name": "15" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"angle": 6.79,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 2.95,
+						"y": -0.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 5.16,
+						"y": 2.15,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 2.95,
+						"y": -0.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,27 @@
+
+yinbxz.png
+size: 52,52
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 38, 36
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+yb1
+  rotate: false
+  xy: 2, 16
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+yb2
+  rotate: true
+  xy: 2, 2
+  size: 12, 34
+  orig: 12, 34
+  offset: 0, 0
+  index: -1

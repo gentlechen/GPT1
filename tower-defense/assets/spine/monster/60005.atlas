@@ -1,0 +1,27 @@
+
+60005.png
+size: 444,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 188, 103
+  size: 239, 251
+  orig: 241, 253
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 2, 8
+  size: 184, 334
+  orig: 186, 336
+  offset: 1, 1
+  index: -1
+sdsdsd
+  rotate: false
+  xy: 188, 2
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1

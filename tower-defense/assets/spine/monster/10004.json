@@ -1,0 +1,212 @@
+{
+"skeleton": { "hash": "oVHbZDo1cP87HLg4f1eUqQcTLmg", "spine": "3.7.94", "width": 75.13, "height": 60.34, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone", "parent": "bone3", "scaleX": 2.152, "scaleY": 2.152 },
+	{ "name": "bone2", "parent": "root", "x": 12.2, "y": -6.19 }
+],
+"slots": [
+	{ "name": "00", "bone": "bone", "dark": "000000", "attachment": "10" },
+	{ "name": "0", "bone": "bone", "dark": "000000", "blend": "additive" },
+	{ "name": "knight_7_skill_1_effect_0_0", "bone": "bone2", "color": "0b43ffff", "attachment": "knight_7_skill_1_effect_0_0", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"0": {
+			"05": { "width": 28, "height": 29 },
+			"06": { "width": 28, "height": 29 },
+			"07": { "width": 28, "height": 29 },
+			"08": { "width": 28, "height": 29 },
+			"09": { "width": 28, "height": 29 },
+			"10": {
+				"type": "mesh",
+				"uvs": [ 0, 0.27713, 1, 0.23042, 1, 1, 0, 1 ],
+				"triangles": [ 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ -10.24, 8.77, 17.76, 10.03, 17.76, -10.74, -10.24, -10.74 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 28,
+				"height": 27
+			}
+		},
+		"00": {
+			"05": { "width": 28, "height": 29 },
+			"06": { "width": 28, "height": 29 },
+			"07": { "width": 28, "height": 29 },
+			"08": { "width": 28, "height": 29 },
+			"09": { "width": 28, "height": 29 },
+			"10": {
+				"type": "mesh",
+				"uvs": [ 0, 0.27713, 1, 0.23042, 1, 1, 0, 1 ],
+				"triangles": [ 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ -10.24, 8.77, 17.76, 10.03, 17.76, -10.74, -10.24, -10.74 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 28,
+				"height": 27
+			}
+		},
+		"knight_7_skill_1_effect_0_0": {
+			"knight_7_skill_1_effect_0_0": { "x": -13.63, "y": 15.42, "width": 71, "height": 56 },
+			"knight_7_skill_1_effect_0_1": { "x": -10.11, "y": 7.51, "width": 57, "height": 41 },
+			"knight_7_skill_1_effect_0_3": { "x": -2.52, "y": -0.2, "width": 38, "height": 28 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"0": {
+				"twoColor": [
+					{ "time": 0.1667, "light": "ffffff00", "dark": "000000" },
+					{ "time": 0.2333, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.3, "light": "ffffff00", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "05" }
+				]
+			},
+			"00": {
+				"twoColor": [
+					{ "time": 0.1667, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.2333, "light": "8df4ffff", "dark": "000000" },
+					{ "time": 0.3, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "05" }
+				]
+			},
+			"knight_7_skill_1_effect_0_0": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "knight_7_skill_1_effect_0_0" },
+					{ "time": 0.2, "name": "knight_7_skill_1_effect_0_1" },
+					{ "time": 0.2333, "name": "knight_7_skill_1_effect_0_3" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": 0, "y": 4.67 },
+					{ "time": 0.1667, "x": 0, "y": 1.94 },
+					{ "time": 0.2333, "x": 0, "y": -2.46 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.94,
+						"y": 0.94,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.048,
+						"y": 1.048,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 9.4, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 1.039, "y": 1.039 },
+					{ "time": 0.2, "x": 1.538, "y": 1.538 },
+					{ "time": 0.2333, "x": 2.342, "y": 2.342 }
+				]
+			}
+		}
+	},
+	"die": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0.2,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "light": "ffffff00", "dark": "000000" }
+				]
+			},
+			"knight_7_skill_1_effect_0_0": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 8.33 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2667, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "05" },
+					{ "time": 0.0667, "name": "06" },
+					{ "time": 0.1333, "name": "07" },
+					{ "time": 0.2, "name": "08" },
+					{ "time": 0.2667, "name": "09" }
+				]
+			},
+			"knight_7_skill_1_effect_0_0": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"00": {
+				"attachment": [
+					{ "time": 0, "name": "05" },
+					{ "time": 0.0667, "name": "06" },
+					{ "time": 0.1333, "name": "07" },
+					{ "time": 0.2, "name": "08" },
+					{ "time": 0.2667, "name": "09" }
+				]
+			},
+			"knight_7_skill_1_effect_0_0": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

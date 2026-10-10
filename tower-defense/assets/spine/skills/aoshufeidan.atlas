@@ -1,0 +1,34 @@
+
+aoshufeidan.png
+size: 312,312
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 2, 156
+  size: 149, 152
+  orig: 149, 152
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 2, 2
+  size: 149, 152
+  orig: 149, 152
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 153, 156
+  size: 149, 152
+  orig: 149, 152
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 153, 2
+  size: 149, 152
+  orig: 149, 152
+  offset: 0, 0
+  index: -1

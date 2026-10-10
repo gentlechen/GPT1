@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "1cUPg2LjAghkXCbexz8kUyeoAes", "spine": "3.7.94", "width": 416.83, "height": 630.74, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -1.36, "y": 60.02, "scaleX": 0.834, "scaleY": 1.261 }
+],
+"slots": [
+	{ "name": "skill_confuse_cyxj_00001", "bone": "bone", "attachment": "skill_confuse_cyxj_00007" }
+],
+"skins": {
+	"default": {
+		"skill_confuse_cyxj_00001": {
+			"skill_confuse_cyxj_00001": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00002": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00003": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00004": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00005": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00006": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00007": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00008": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00009": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00010": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00011": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00012": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00013": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00014": { "width": 500, "height": 500 },
+			"skill_confuse_cyxj_00015": { "width": 500, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"skill_confuse_cyxj_00001": {
+				"attachment": [
+					{ "time": 0, "name": "skill_confuse_cyxj_00001" },
+					{ "time": 0.0333, "name": "skill_confuse_cyxj_00002" },
+					{ "time": 0.0667, "name": "skill_confuse_cyxj_00003" },
+					{ "time": 0.1, "name": "skill_confuse_cyxj_00004" },
+					{ "time": 0.1333, "name": "skill_confuse_cyxj_00005" },
+					{ "time": 0.1667, "name": "skill_confuse_cyxj_00006" },
+					{ "time": 0.2, "name": "skill_confuse_cyxj_00007" },
+					{ "time": 0.2333, "name": "skill_confuse_cyxj_00008" },
+					{ "time": 0.2667, "name": "skill_confuse_cyxj_00009" },
+					{ "time": 0.3, "name": "skill_confuse_cyxj_00010" },
+					{ "time": 0.3333, "name": "skill_confuse_cyxj_00011" },
+					{ "time": 0.3667, "name": "skill_confuse_cyxj_00012" },
+					{ "time": 0.4, "name": "skill_confuse_cyxj_00013" },
+					{ "time": 0.4333, "name": "skill_confuse_cyxj_00014" },
+					{ "time": 0.4667, "name": "skill_confuse_cyxj_00015" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		}
+	}
+}
+}

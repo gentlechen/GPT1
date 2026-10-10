@@ -1,0 +1,48 @@
+
+10022.png
+size: 176,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 64, 9
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+sd11
+  rotate: true
+  xy: 118, 2
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+shou22
+  rotate: false
+  xy: 151, 42
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+yan22
+  rotate: false
+  xy: 151, 30
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+zui11
+  rotate: false
+  xy: 163, 36
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1

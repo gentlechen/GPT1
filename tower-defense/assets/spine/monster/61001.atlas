@@ -1,0 +1,62 @@
+
+61001.png
+size: 352,352
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 2, 181
+  size: 190, 169
+  orig: 192, 171
+  offset: 1, 1
+  index: -1
+hyan
+  rotate: false
+  xy: 188, 68
+  size: 112, 43
+  orig: 114, 45
+  offset: 1, 1
+  index: -1
+pao
+  rotate: true
+  xy: 194, 113
+  size: 103, 146
+  orig: 105, 148
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 144, 2
+  size: 70, 64
+  orig: 72, 66
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 216, 2
+  size: 70, 64
+  orig: 72, 66
+  offset: 1, 1
+  index: -1
+sdd
+  rotate: false
+  xy: 2, 80
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1
+yan
+  rotate: false
+  xy: 2, 16
+  size: 140, 62
+  orig: 142, 64
+  offset: 1, 1
+  index: -1
+zidan
+  rotate: false
+  xy: 194, 218
+  size: 132, 132
+  orig: 134, 134
+  offset: 1, 1
+  index: -1

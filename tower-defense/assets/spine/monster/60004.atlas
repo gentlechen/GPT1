@@ -1,0 +1,41 @@
+
+60004.png
+size: 488,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 131, 162
+  size: 220, 178
+  orig: 222, 180
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 353, 188
+  size: 152, 131
+  orig: 154, 133
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 2, 58
+  size: 127, 282
+  orig: 129, 284
+  offset: 1, 1
+  index: -1
+sdsdsd
+  rotate: true
+  xy: 369, 2
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1
+tg
+  rotate: false
+  xy: 131, 15
+  size: 236, 145
+  orig: 238, 147
+  offset: 1, 1
+  index: -1

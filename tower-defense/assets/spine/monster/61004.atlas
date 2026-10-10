@@ -1,0 +1,41 @@
+
+61004.png
+size: 392,324
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 150, 2
+  size: 218, 237
+  orig: 218, 237
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 85
+  size: 146, 146
+  orig: 146, 146
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 94, 233
+  size: 94, 88
+  orig: 94, 88
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 2, 237
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+sddd
+  rotate: false
+  xy: 190, 222
+  size: 184, 99
+  orig: 184, 99
+  offset: 0, 0
+  index: -1

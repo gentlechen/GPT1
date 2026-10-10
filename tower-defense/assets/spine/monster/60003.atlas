@@ -1,0 +1,62 @@
+
+60003.png
+size: 844,184
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 262, 15
+  size: 192, 165
+  orig: 194, 167
+  offset: 1, 1
+  index: -1
+chib2
+  rotate: false
+  xy: 642, 88
+  size: 139, 92
+  orig: 139, 92
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: false
+  xy: 2, 27
+  size: 258, 153
+  orig: 260, 155
+  offset: 1, 1
+  index: -1
+sddd
+  rotate: false
+  xy: 456, 81
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1
+shou1
+  rotate: false
+  xy: 596, 2
+  size: 83, 77
+  orig: 85, 79
+  offset: 1, 1
+  index: -1
+shou2
+  rotate: false
+  xy: 681, 9
+  size: 83, 77
+  orig: 85, 79
+  offset: 1, 1
+  index: -1
+yan
+  rotate: false
+  xy: 456, 21
+  size: 138, 58
+  orig: 140, 60
+  offset: 1, 1
+  index: -1
+zhuaheng
+  rotate: false
+  xy: 783, 54
+  size: 59, 126
+  orig: 61, 128
+  offset: 1, 1
+  index: -1

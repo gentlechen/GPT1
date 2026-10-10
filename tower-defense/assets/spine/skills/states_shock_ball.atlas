@@ -1,0 +1,132 @@
+
+states_shock_ball.png
+size: 144,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: false
+  xy: 2, 42
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+a2
+  rotate: false
+  xy: 38, 42
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+a3
+  rotate: true
+  xy: 114, 67
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+b1
+  rotate: false
+  xy: 2, 2
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+b2
+  rotate: false
+  xy: 33, 9
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+b3
+  rotate: true
+  xy: 114, 114
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+c1
+  rotate: false
+  xy: 70, 60
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+c2
+  rotate: false
+  xy: 94, 67
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+c3
+  rotate: true
+  xy: 70, 42
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+d1
+  rotate: true
+  xy: 89, 89
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+d2
+  rotate: false
+  xy: 94, 46
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+d3
+  rotate: false
+  xy: 117, 50
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+e1
+  rotate: false
+  xy: 60, 11
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 60, 87
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+e3
+  rotate: true
+  xy: 114, 88
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 2, 108
+  size: 56, 31
+  orig: 56, 31
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 2, 78
+  size: 54, 28
+  orig: 54, 28
+  offset: 0, 0
+  index: -1
+f3
+  rotate: false
+  xy: 60, 115
+  size: 52, 24
+  orig: 52, 24
+  offset: 0, 0
+  index: -1

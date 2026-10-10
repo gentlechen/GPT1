@@ -1,0 +1,204 @@
+{
+"skeleton": { "hash": "uXb+Nxy2019o+nzlxbhNsWvBu94", "spine": "3.7.94", "width": 62, "height": 52, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "bone2", "parent": "root", "x": 12.2, "y": -6.19 }
+],
+"slots": [
+	{ "name": "00", "bone": "bone", "dark": "000000", "attachment": "05" },
+	{ "name": "knight_7_skill_1_effect_0_0", "bone": "bone2", "color": "0b43ffff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"00": {
+			"05": { "width": 31, "height": 26 },
+			"06": { "width": 31, "height": 26 },
+			"07": { "width": 31, "height": 26 },
+			"08": { "width": 31, "height": 26 },
+			"09": { "width": 31, "height": 26 },
+			"10": { "width": 31, "height": 26 }
+		},
+		"knight_7_skill_1_effect_0_0": {
+			"knight_7_skill_1_effect_0_0": { "x": -13.63, "y": 15.42, "width": 71, "height": 56 },
+			"knight_7_skill_1_effect_0_1": { "x": -10.11, "y": 7.51, "width": 57, "height": 41 },
+			"knight_7_skill_1_effect_0_3": { "x": -2.52, "y": -0.2, "width": 38, "height": 28 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"knight_7_skill_1_effect_0_0": {
+				"attachment": [
+					{ "time": 0.1667, "name": "knight_7_skill_1_effect_0_0" },
+					{ "time": 0.2, "name": "knight_7_skill_1_effect_0_1" },
+					{ "time": 0.2333, "name": "knight_7_skill_1_effect_0_3" },
+					{ "time": 0.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 9.4, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 1.039, "y": 1.039 },
+					{ "time": 0.2, "x": 1.538, "y": 1.538 },
+					{ "time": 0.2333, "x": 2.342, "y": 2.342 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 1.36,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.0667,
+						"x": 0,
+						"y": 5.85,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 1.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": -5.85,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 1.36 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.937,
+						"y": 0.937,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.061,
+						"y": 1.061,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"die": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0.1667,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "light": "ffffff00", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "10" }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "06" },
+					{ "time": 0.1667, "name": "07" },
+					{ "time": 0.2667, "name": "08" },
+					{ "time": 0.3333, "name": "09" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1.36, "curve": "stepped" },
+					{
+						"time": 0.0333,
+						"x": 0,
+						"y": 1.36,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 1.36 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"00": {
+				"attachment": [
+					{ "time": 0.1, "name": "06" },
+					{ "time": 0.1667, "name": "07" },
+					{ "time": 0.2667, "name": "08" },
+					{ "time": 0.3333, "name": "09" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1.36, "curve": "stepped" },
+					{
+						"time": 0.0333,
+						"x": 0,
+						"y": 1.36,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 1.36 }
+				]
+			}
+		}
+	}
+}
+}

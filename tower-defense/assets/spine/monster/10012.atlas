@@ -1,0 +1,41 @@
+
+10012.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+sd11
+  rotate: false
+  xy: 64, 31
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+shou22
+  rotate: false
+  xy: 64, 9
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+yan22
+  rotate: false
+  xy: 86, 19
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+zui11
+  rotate: false
+  xy: 64, 3
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1

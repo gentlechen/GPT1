@@ -1,0 +1,48 @@
+
+60007.png
+size: 84,84
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 43, 50
+  size: 35, 30
+  orig: 48, 48
+  offset: 5, 2
+  index: -1
+01
+  rotate: false
+  xy: 43, 18
+  size: 35, 30
+  orig: 48, 48
+  offset: 5, 2
+  index: -1
+02
+  rotate: false
+  xy: 2, 13
+  size: 36, 30
+  orig: 48, 48
+  offset: 4, 2
+  index: -1
+03
+  rotate: false
+  xy: 2, 45
+  size: 39, 35
+  orig: 48, 48
+  offset: 3, 0
+  index: -1
+08
+  rotate: false
+  xy: 61, 4
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 40, 2
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1

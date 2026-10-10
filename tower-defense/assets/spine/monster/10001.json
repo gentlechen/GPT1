@@ -1,0 +1,325 @@
+{
+"skeleton": { "hash": "RHBzw6ouS+x/Luleb+pFgsGph/s", "spine": "3.7.94", "width": 80, "height": 80.65, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": 13.51, "scaleX": 2, "scaleY": 2 },
+	{ "name": "bone2", "parent": "bone", "rotation": -15.63, "x": -8.18, "y": -12.09 }
+],
+"slots": [
+	{ "name": "00", "bone": "bone", "dark": "000000", "attachment": "08" },
+	{ "name": "officer_8_skill_2_effect_1_0", "bone": "bone2", "dark": "000000", "attachment": "officer_8_skill_2_effect_1_0" }
+],
+"skins": {
+	"default": {
+		"00": {
+			"08": { "width": 40, "height": 40 },
+			"09": { "width": 40, "height": 40 },
+			"10": { "width": 40, "height": 40 },
+			"11": { "width": 40, "height": 40 },
+			"12": { "width": 40, "height": 40 },
+			"13": { "width": 40, "height": 40 },
+			"14": { "width": 40, "height": 40 },
+			"15": { "width": 40, "height": 40 },
+			"16": { "x": 3.91, "width": 40, "height": 40 }
+		},
+		"officer_8_skill_2_effect_1_0": {
+			"officer_8_skill_2_effect_1_0": { "x": 6.9, "y": -0.53, "scaleX": 0.7, "scaleY": 0.7, "width": 30, "height": 9 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"officer_8_skill_2_effect_1_0": {
+				"twoColor": [
+					{
+						"time": 0.2333,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2667,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "angle": 152.19, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"angle": 152.19,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "angle": -17.7 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "x": 0.613, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"x": 0.613,
+						"y": 1,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 1.363,
+						"y": 1.589,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.0667,
+						"x": 0,
+						"y": 6.41,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "x": 0, "y": 3.31, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 3.31,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": -5.85,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"die": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{
+						"time": 0.1667,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "light": "ffffff00", "dark": "000000" }
+				]
+			},
+			"officer_8_skill_2_effect_1_0": {
+				"twoColor": [
+					{
+						"time": 0.1667,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "light": "ffffff00", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1667, "angle": 96.16 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": -10.34,
+						"y": 5.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1667, "x": -17.24, "y": -14.59 },
+					{ "time": 0.2, "x": -17.24, "y": -11.71 },
+					{ "time": 0.2667, "x": -17.24, "y": -14.59 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1667, "angle": -80.88 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1667, "x": 1.2, "y": 11.1 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"00": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.1, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.2, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.3, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.4, "light": "ffffffff", "dark": "000000" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1, "name": "10" },
+					{ "time": 0.1667, "name": "11" },
+					{ "time": 0.2333, "name": "12" },
+					{ "time": 0.3, "name": "13" },
+					{ "time": 0.3333, "name": "14" },
+					{ "time": 0.4, "name": "15" }
+				]
+			},
+			"officer_8_skill_2_effect_1_0": {
+				"twoColor": [
+					{
+						"time": 0,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"light": "ffffffff",
+						"dark": "000000",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"light": "ffffffff",
+						"dark": "ffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0,
+						"y": -0.77,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": -0.66,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0,
+						"y": -0.77,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"00": {
+				"attachment": [
+					{ "time": 0.0667, "name": "09" },
+					{ "time": 0.1, "name": "10" },
+					{ "time": 0.1667, "name": "11" },
+					{ "time": 0.2333, "name": "12" },
+					{ "time": 0.3, "name": "13" },
+					{ "time": 0.3333, "name": "14" },
+					{ "time": 0.4, "name": "15" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0,
+						"y": -0.77,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": -0.66,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0,
+						"y": -0.77,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

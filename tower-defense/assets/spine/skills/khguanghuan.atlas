@@ -1,0 +1,69 @@
+
+khguanghuan.png
+size: 300,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_touchmap_00001
+  rotate: false
+  xy: 2, 152
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00002
+  rotate: false
+  xy: 114, 224
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00003
+  rotate: false
+  xy: 2, 80
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00004
+  rotate: false
+  xy: 114, 152
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00005
+  rotate: true
+  xy: 226, 184
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00006
+  rotate: false
+  xy: 2, 8
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00007
+  rotate: false
+  xy: 114, 80
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00008
+  rotate: false
+  xy: 114, 8
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+eff_touchmap_00009
+  rotate: false
+  xy: 2, 224
+  size: 110, 70
+  orig: 110, 70
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+hudunxt.png
+size: 360,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fdxt
+  rotate: false
+  xy: 2, 303
+  size: 353, 50
+  orig: 353, 50
+  offset: 0, 0
+  index: -1

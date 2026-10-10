@@ -1,0 +1,174 @@
+
+lhzd.png
+size: 492,492
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo_0
+  rotate: false
+  xy: 431, 351
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+huo_1
+  rotate: false
+  xy: 229, 43
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+huo_2
+  rotate: false
+  xy: 410, 345
+  size: 19, 41
+  orig: 19, 41
+  offset: 0, 0
+  index: -1
+huo_3
+  rotate: true
+  xy: 457, 365
+  size: 21, 33
+  orig: 21, 33
+  offset: 0, 0
+  index: -1
+huo_4
+  rotate: false
+  xy: 276, 45
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+huo_5
+  rotate: false
+  xy: 206, 41
+  size: 21, 39
+  orig: 21, 39
+  offset: 0, 0
+  index: -1
+huo_6
+  rotate: false
+  xy: 253, 43
+  size: 21, 37
+  orig: 21, 37
+  offset: 0, 0
+  index: -1
+huo_7
+  rotate: false
+  xy: 177, 345
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+oqoq
+  rotate: false
+  xy: 2, 326
+  size: 173, 162
+  orig: 173, 162
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00001
+  rotate: false
+  xy: 2, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00002
+  rotate: false
+  xy: 177, 388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00003
+  rotate: false
+  xy: 2, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00004
+  rotate: false
+  xy: 279, 388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00005
+  rotate: false
+  xy: 2, 20
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00006
+  rotate: false
+  xy: 381, 388
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00007
+  rotate: false
+  xy: 104, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00008
+  rotate: false
+  xy: 104, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00009
+  rotate: false
+  xy: 104, 20
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00010
+  rotate: false
+  xy: 206, 286
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00011
+  rotate: false
+  xy: 206, 184
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00012
+  rotate: false
+  xy: 308, 286
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00013
+  rotate: false
+  xy: 206, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00014
+  rotate: false
+  xy: 308, 184
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skill_shuairuo_rbjf_00015
+  rotate: false
+  xy: 308, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

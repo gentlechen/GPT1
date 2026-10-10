@@ -1,0 +1,27 @@
+
+mt.png
+size: 196,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 2
+  size: 68, 90
+  orig: 75, 97
+  offset: 3, 0
+  index: -1
+dfs2
+  rotate: true
+  xy: 94, 2
+  size: 68, 88
+  orig: 75, 97
+  offset: 3, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 72
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

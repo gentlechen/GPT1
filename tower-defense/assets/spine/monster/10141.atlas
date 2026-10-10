@@ -1,0 +1,55 @@
+
+10141.png
+size: 144,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: true
+  xy: 2, 5
+  size: 73, 64
+  orig: 73, 64
+  offset: 0, 0
+  index: -1
+ni1
+  rotate: true
+  xy: 122, 33
+  size: 11, 13
+  orig: 13, 15
+  offset: 1, 1
+  index: -1
+ni2
+  rotate: true
+  xy: 103, 30
+  size: 14, 17
+  orig: 16, 19
+  offset: 1, 1
+  index: -1
+ssd
+  rotate: false
+  xy: 68, 46
+  size: 74, 32
+  orig: 76, 34
+  offset: 1, 1
+  index: -1
+y1
+  rotate: false
+  xy: 82, 24
+  size: 19, 20
+  orig: 21, 22
+  offset: 1, 1
+  index: -1
+y2
+  rotate: false
+  xy: 82, 2
+  size: 19, 20
+  orig: 21, 22
+  offset: 1, 1
+  index: -1
+zui
+  rotate: true
+  xy: 68, 6
+  size: 38, 12
+  orig: 38, 12
+  offset: 0, 0
+  index: -1

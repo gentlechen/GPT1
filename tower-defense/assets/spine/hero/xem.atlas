@@ -1,0 +1,27 @@
+
+xem.png
+size: 204,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dfs1
+  rotate: true
+  xy: 2, 3
+  size: 74, 97
+  orig: 75, 97
+  offset: 1, 0
+  index: -1
+dfs2
+  rotate: false
+  xy: 127, 104
+  size: 74, 95
+  orig: 75, 97
+  offset: 1, 0
+  index: -1
+light03
+  rotate: false
+  xy: 2, 79
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1

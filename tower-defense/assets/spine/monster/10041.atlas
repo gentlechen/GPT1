@@ -1,0 +1,62 @@
+
+10041.png
+size: 220,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: false
+  xy: 103, 6
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 86, 13
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+sd11
+  rotate: false
+  xy: 2, 2
+  size: 60, 31
+  orig: 60, 31
+  offset: 0, 0
+  index: -1
+shou22
+  rotate: false
+  xy: 64, 13
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+shuo
+  rotate: true
+  xy: 2, 35
+  size: 43, 93
+  orig: 43, 93
+  offset: 0, 0
+  index: -1
+tk
+  rotate: true
+  xy: 165, 9
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+yan22
+  rotate: false
+  xy: 97, 68
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+zui11
+  rotate: false
+  xy: 64, 7
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1

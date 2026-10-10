@@ -1,0 +1,43 @@
+Creator 2.4.15；AppID 保持 wx2cc441afbc7bf78c。
+修改 35 個預製體，共 333 Label + 1 RichText。僅清空目標字體及開啟系統字體，其他序列化屬性保持一致。
+字體和 meta 已移出 assets，備份另提供 ZIP。未配置分包。
+已驗證 JSON、殘留 UUID、非目標文件完整性；未執行 Creator 預覽或微信構建。
+打開 assets/resources/scenes/HallScene.fire 預覽，檢查文字換行、截斷，再重新構建及檢查體積。
+本包不帶 library/temp/local/build 緩存。
+
+修改文件：
+assets/resources/prefabs/hall/UITop.prefab（7 個文字組件）
+assets/resources/prefabs/hall/UISignIn.prefab（22 個文字組件）
+assets/resources/prefabs/hall/UIBox.prefab（12 個文字組件）
+assets/resources/prefabs/hall/UIHangupQuick.prefab（7 個文字組件）
+assets/resources/prefabs/hall/UISet.prefab（9 個文字組件）
+assets/resources/prefabs/hall/UIEndless.prefab（1 個文字組件）
+assets/resources/prefabs/hall/UIHangup.prefab（10 個文字組件）
+assets/resources/prefabs/hall/UIHall.prefab（5 個文字組件）
+assets/resources/prefabs/guild/UIGuild.prefab（2 個文字組件）
+assets/resources/prefabs/battle/UIBattle.prefab（7 個文字組件）
+assets/resources/prefabs/battle/UIBattleQuit.prefab（4 個文字組件）
+assets/resources/prefabs/battle/UIBattleResults.prefab（14 個文字組件）
+assets/resources/prefabs/battle/UIBattleHeroInfo.prefab（14 個文字組件）
+assets/resources/prefabs/shop/UIConfirmBuy.prefab（5 個文字組件）
+assets/resources/prefabs/shop/UIShopDrawCard.prefab（2 個文字組件）
+assets/resources/prefabs/shop/UIShop.prefab（67 個文字組件）
+assets/resources/prefabs/copy/UICopyInfo.prefab（11 個文字組件）
+assets/resources/prefabs/copy/UICopyMain.prefab（5 個文字組件）
+assets/resources/prefabs/chapter/UIChapterInfo.prefab（13 個文字組件）
+assets/resources/prefabs/handbook/UIMonsterInfo.prefab（15 個文字組件）
+assets/resources/prefabs/handbook/ItemHandbook.prefab（4 個文字組件）
+assets/resources/prefabs/handbook/UIHandbook.prefab（3 個文字組件）
+assets/resources/prefabs/level/UILevel.prefab（1 個文字組件）
+assets/resources/prefabs/commonTip/UIFlyTip.prefab（5 個文字組件）
+assets/resources/prefabs/common/UIReward.prefab（3 個文字組件）
+assets/resources/prefabs/loading/UILoading.prefab（2 個文字組件）
+assets/resources/prefabs/hero/itemHeroTitle1.prefab（2 個文字組件）
+assets/resources/prefabs/hero/UIHeroMain.prefab（14 個文字組件）
+assets/resources/prefabs/hero/itemHeroTitle2.prefab（6 個文字組件）
+assets/resources/prefabs/hero/UIHeroInfo.prefab（35 個文字組件）
+assets/resources/prefabs/hero/itemHeroCard.prefab（2 個文字組件）
+assets/resources/prefabs/hero/itemHeroTitle3.prefab（1 個文字組件）
+assets/resources/prefabs/task/ItemWelfare.prefab（6 個文字組件）
+assets/resources/prefabs/task/UITask.prefab（11 個文字組件）
+assets/resources/prefabs/task/ItemTask.prefab（7 個文字組件）

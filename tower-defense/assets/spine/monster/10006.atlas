@@ -1,0 +1,62 @@
+
+10006.png
+size: 112,112
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+04
+  rotate: false
+  xy: 53, 33
+  size: 32, 22
+  orig: 32, 24
+  offset: 0, 2
+  index: -1
+05
+  rotate: true
+  xy: 28, 25
+  size: 31, 23
+  orig: 32, 24
+  offset: 1, 0
+  index: -1
+06
+  rotate: false
+  xy: 35, 2
+  size: 32, 21
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 69, 9
+  size: 31, 22
+  orig: 32, 24
+  offset: 1, 0
+  index: -1
+08
+  rotate: false
+  xy: 2, 2
+  size: 31, 18
+  orig: 32, 24
+  offset: 1, 0
+  index: -1
+knight_7_skill_1_effect_0_0
+  rotate: false
+  xy: 2, 58
+  size: 68, 52
+  orig: 71, 56
+  offset: 2, 2
+  index: -1
+knight_7_skill_1_effect_0_1
+  rotate: true
+  xy: 72, 57
+  size: 53, 37
+  orig: 57, 41
+  offset: 2, 2
+  index: -1
+knight_7_skill_1_effect_0_3
+  rotate: true
+  xy: 2, 22
+  size: 34, 24
+  orig: 38, 28
+  offset: 2, 2
+  index: -1

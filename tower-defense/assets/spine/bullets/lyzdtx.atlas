@@ -1,0 +1,55 @@
+
+lyzdtx.png
+size: 196,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightning01a
+  rotate: false
+  xy: 2, 126
+  size: 68, 65
+  orig: 68, 65
+  offset: 0, 0
+  index: -1
+lightning01b
+  rotate: false
+  xy: 2, 64
+  size: 68, 60
+  orig: 68, 60
+  offset: 0, 0
+  index: -1
+lightning01c
+  rotate: true
+  xy: 72, 63
+  size: 67, 52
+  orig: 67, 52
+  offset: 0, 0
+  index: -1
+lightning02a
+  rotate: false
+  xy: 72, 132
+  size: 61, 59
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+lightning02b
+  rotate: false
+  xy: 135, 133
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+lightning02c
+  rotate: false
+  xy: 64, 10
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+lyzd
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+10001.png
+size: 88,88
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+08
+  rotate: false
+  xy: 55, 4
+  size: 23, 26
+  orig: 40, 40
+  offset: 8, 1
+  index: -1
+09
+  rotate: false
+  xy: 29, 2
+  size: 24, 26
+  orig: 40, 40
+  offset: 7, 1
+  index: -1
+10
+  rotate: true
+  xy: 60, 32
+  size: 25, 26
+  orig: 40, 40
+  offset: 6, 1
+  index: -1
+11
+  rotate: false
+  xy: 2, 2
+  size: 25, 26
+  orig: 40, 40
+  offset: 6, 1
+  index: -1
+12
+  rotate: true
+  xy: 34, 62
+  size: 24, 27
+  orig: 40, 40
+  offset: 7, 1
+  index: -1
+13
+  rotate: false
+  xy: 63, 59
+  size: 23, 27
+  orig: 40, 40
+  offset: 8, 1
+  index: -1
+14
+  rotate: true
+  xy: 2, 53
+  size: 22, 27
+  orig: 40, 40
+  offset: 9, 1
+  index: -1
+15
+  rotate: true
+  xy: 31, 38
+  size: 22, 27
+  orig: 40, 40
+  offset: 9, 1
+  index: -1
+16
+  rotate: false
+  xy: 2, 30
+  size: 27, 21
+  orig: 40, 40
+  offset: 6, 1
+  index: -1
+officer_8_skill_2_effect_1_0
+  rotate: false
+  xy: 2, 77
+  size: 30, 9
+  orig: 30, 9
+  offset: 0, 0
+  index: -1

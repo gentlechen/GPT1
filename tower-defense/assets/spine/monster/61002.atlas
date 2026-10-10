@@ -1,0 +1,41 @@
+
+61002.png
+size: 560,280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 2, 2
+  size: 315, 275
+  orig: 317, 277
+  offset: 1, 1
+  index: -1
+lizi
+  rotate: false
+  xy: 319, 30
+  size: 146, 146
+  orig: 148, 148
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 467, 91
+  size: 91, 85
+  orig: 93, 87
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 467, 4
+  size: 91, 85
+  orig: 93, 87
+  offset: 1, 1
+  index: -1
+sddd
+  rotate: false
+  xy: 319, 178
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1

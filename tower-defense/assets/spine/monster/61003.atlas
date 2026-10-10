@@ -1,0 +1,90 @@
+
+61003.png
+size: 844,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd
+  rotate: false
+  xy: 2, 32
+  size: 266, 292
+  orig: 268, 294
+  offset: 1, 1
+  index: -1
+cb
+  rotate: true
+  xy: 719, 85
+  size: 138, 97
+  orig: 138, 97
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 755, 232
+  size: 92, 84
+  orig: 94, 86
+  offset: 1, 1
+  index: -1
+sddd
+  rotate: false
+  xy: 569, 225
+  size: 184, 99
+  orig: 186, 101
+  offset: 1, 1
+  index: -1
+spark01a
+  rotate: true
+  xy: 569, 154
+  size: 69, 148
+  orig: 70, 149
+  offset: 0, 1
+  index: -1
+spark01b
+  rotate: false
+  xy: 660, 11
+  size: 55, 141
+  orig: 55, 141
+  offset: 0, 0
+  index: -1
+spark02a
+  rotate: true
+  xy: 270, 148
+  size: 176, 158
+  orig: 176, 159
+  offset: 0, 0
+  index: -1
+spark02b
+  rotate: false
+  xy: 429, 3
+  size: 149, 143
+  orig: 150, 144
+  offset: 1, 0
+  index: -1
+spark03a
+  rotate: true
+  xy: 270, 6
+  size: 140, 157
+  orig: 141, 159
+  offset: 0, 1
+  index: -1
+spark03b
+  rotate: false
+  xy: 430, 186
+  size: 137, 138
+  orig: 138, 154
+  offset: 1, 0
+  index: -1
+spark04a
+  rotate: false
+  xy: 580, 2
+  size: 78, 150
+  orig: 80, 152
+  offset: 1, 1
+  index: -1
+spark04b
+  rotate: true
+  xy: 717, 10
+  size: 73, 119
+  orig: 75, 143
+  offset: 1, 23
+  index: -1

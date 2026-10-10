@@ -1,0 +1,69 @@
+
+10111.png
+size: 144,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd1
+  rotate: true
+  xy: 86, 79
+  size: 63, 54
+  orig: 65, 56
+  offset: 1, 1
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 64
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+quff
+  rotate: false
+  xy: 35, 18
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 81, 30
+  size: 21, 21
+  orig: 23, 23
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 81, 30
+  size: 21, 21
+  orig: 23, 23
+  offset: 1, 1
+  index: -1
+sd11
+  rotate: true
+  xy: 2, 2
+  size: 60, 31
+  orig: 62, 33
+  offset: 1, 1
+  index: -1
+yan1
+  rotate: false
+  xy: 35, 6
+  size: 5, 10
+  orig: 7, 12
+  offset: 1, 1
+  index: -1
+yan2
+  rotate: false
+  xy: 35, 6
+  size: 5, 10
+  orig: 7, 12
+  offset: 1, 1
+  index: -1
+yany
+  rotate: false
+  xy: 86, 53
+  size: 43, 24
+  orig: 45, 26
+  offset: 1, 1
+  index: -1
